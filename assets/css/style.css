@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+form{
+    padding: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+}
+
+label {
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 5px;
+    
+}
+
+input, textarea, select{
+    width: 400px;
+    margin: 0;
+    padding: 4px; 
+    border: 2px solid #ccc;
+}
+
+textarea{
+    margin-bottom: 20px;
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+#vorname, #nachname{
+    width: 198px;
+    padding: 4px;
+    margin: 0;
+}
+
+input[type=submit]{
+    color: white;
+    background-color: #468fa5;
+}
+
+input[type=submit]:hover{
+    background-color:#1a363e;
+}
+
+.required{
+    color: red;
+}
